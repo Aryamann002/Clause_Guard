@@ -25,7 +25,12 @@ export async function POST(req: NextRequest) {
         id: consultationId,
         consultationId,
         callLink,
-        status: "PENDING"
+        status: "CONFIRMED",
+        scheduledAt: scheduledAt || new Date().toISOString(),
+        payment: {
+          amount: 1500,
+          status: "SUCCESS"
+        }
       }
     });
   } catch (error) {
