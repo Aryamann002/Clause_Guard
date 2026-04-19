@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafaf9;
+  color: #1c1917;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+/* Input base style */
+.input-base {
+  @apply w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-stone-800 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-teal-500/40 focus:border-teal-400 transition-colors;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-teal-600 text-white font-semibold rounded-xl px-6 py-2.5 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500/40 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-stone-100 text-stone-700 font-medium rounded-xl px-4 py-2.5 hover:bg-stone-200 focus:outline-none focus:ring-2 focus:ring-stone-300/40 transition-all duration-200;
+}
+
+/* Pulse animation for loading states */
+@keyframes gentle-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-gentle-pulse {
+  animation: gentle-pulse 2s ease-in-out infinite;
+}
+
+/* Crimson color utilities for error states */
+.bg-crimson-50 { background-color: #fef2f2; }
+.border-crimson-400\/20 { border-color: rgb(248 113 113 / 0.2); }
+.text-crimson-600 { color: #dc2626; }
+
+/* ─── Dark Mode ─────────────────────────────────── */
+.dark body {
+  background: #0c0a09;
+  color: #e7e5e4;
+}
+
+.dark .card {
+  background: #1c1917;
+  border-color: #292524;
+}
+
+.dark .input-base {
+  background: #1c1917;
+  border-color: #292524;
+  color: #e7e5e4;
+}
+
+.dark .btn-secondary {
+  background: #292524;
+  color: #e7e5e4;
+}
+
+.dark nav {
+  background: #0c0a09;
+  border-color: #292524;
+}
+
+.dark footer {
+  background: #0c0a09;
+  border-color: #1c1917;
+}
+
+/* Smooth transition for dark mode toggle */
+body, .card, nav, footer, .input-base {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}

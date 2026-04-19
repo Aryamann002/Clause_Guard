@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ica-sec-28",
+    "act_name": "Indian Contract Act, 1872",
+    "section_number": "Section 28",
+    "keywords": ["arbitration", "void", "restraint of legal proceedings", "time limit", "sue"],
+    "text": "Every agreement, by which any party thereto is restricted absolutely from enforcing his rights under or in respect of any contract, by the usual legal proceedings in the ordinary tribunals, or which limits the time within which he may thus enforce his rights, is void to that extent.",
+    "url": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_3_20_00035_187209_1523268996428&orderno=28"
+  },
+  {
+    "id": "ica-sec-73",
+    "act_name": "Indian Contract Act, 1872",
+    "section_number": "Section 73",
+    "keywords": ["damages", "breach", "compensation", "loss"],
+    "text": "When a contract has been broken, the party who suffers by such breach is entitled to receive, from the party who has broken the contract, compensation for any loss or damage caused to him thereby, which naturally arose in the usual course of things from such breach, or which the parties knew, when they made the contract, to be likely to result from the breach of it. Such compensation is not to be given for any remote and indirect loss or damage sustained by reason of the breach.",
+    "url": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_3_20_00035_187209_1523268996428&orderno=73"
+  },
+  {
+    "id": "ica-sec-27",
+    "act_name": "Indian Contract Act, 1872",
+    "section_number": "Section 27",
+    "keywords": ["restraint of trade", "employment", "non-compete", "void"],
+    "text": "Every agreement by which any one is restrained from exercising a lawful profession, trade or business of any kind, is to that extent void. Exception 1.—Saving of agreement not to carry on business of which good-will is sold.",
+    "url": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_3_20_00035_187209_1523268996428&orderno=27"
+  },
+  {
+    "id": "cpa-sec-47",
+    "act_name": "Consumer Protection Act, 2019",
+    "section_number": "Section 47 (Unfair Contract)",
+    "keywords": ["unfair contract", "consumer", "unreasonable penalty", "termination", "disproportionate"],
+    "text": "A contract between a manufacturer or trader or service provider on one hand, and a consumer on the other, having such terms which cause significant change in the rights of such consumer, including the following, namely:— (i) requiring manifestly excessive security deposits to be given by a consumer for the performance of contractual obligations; or (ii) imposing any penalty on the consumer, for the breach of contract thereof which is wholly disproportionate to the loss occurred... or (v) permitting a party to a contract to assign the contract to the detriment of a consumer without his consent.",
+    "url": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_5_54_00004_201935_1566395350937&orderno=47"
+  },
+  {
+    "id": "tpa-sec-108",
+    "act_name": "Transfer of Property Act, 1882",
+    "section_number": "Section 108",
+    "keywords": ["lease", "rent", "tenant", "landlord", "rights and liabilities"],
+    "text": "In the absence of a contract or local usage to the contrary, the lessor and the lessee of immovable property, as against one another, respectively, possess the rights and are subject to the liabilities mentioned in the rules next following... (c) the lessor shall be deemed to contract with the lessee that, if the latter pays the rent reserved by the lease and performs the contracts binding on the lessee, he may hold the property during the time limited by the lease without interruption.",
+    "url": "https://www.indiacode.nic.in/show-data?actid=AC_CEN_3_20_00046_188204_1523269009890&orderno=108"
+  }
+]
