@@ -21,9 +21,12 @@ export async function POST(req: NextRequest) {
     const consultationId = "consult_" + crypto.randomUUID().substring(0, 8);
 
     return NextResponse.json({ 
-      consultationId,
-      callLink,
-      status: "PENDING"
+      data: {
+        id: consultationId,
+        consultationId,
+        callLink,
+        status: "PENDING"
+      }
     });
   } catch (error) {
     console.error("POST /api/consultations error:", error);

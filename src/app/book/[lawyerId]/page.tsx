@@ -59,7 +59,8 @@ function BookingContent() {
         preConsultQuestions: questions,
       }),
     });
-    const data = await res.json();
+    const json = await res.json();
+    const data = json.data;
     setConsultId(data.consultationId);
     setCallLink(data.callLink);
     setLoading(false);
